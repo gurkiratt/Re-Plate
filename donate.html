@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="donate.css">
+    <title>Re-Plate - Donate Food</title>
+</head>
+<body>
+    <header>
+        <h1>Re-Plate</h1>
+        <p>Saving Food, Nourishing Lives</p>
+    </header>
+    
+    <main>
+        <section id="donateForm">
+            <h2>Donate Food</h2>
+            <form id="foodDonationForm">
+                <label for="location">Your Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="ngo">Select NGO:</label>
+                <select id="ngo" name="ngo" required>
+                    <option value="" disabled selected>Select an NGO</option>
+                    <option value="ngo1">NGO 1</option>
+                    <option value="ngo2">NGO 2</option>
+                    <!-- Add more NGOs here -->
+                </select>
+                
+                <label for="foodName">Food Item Name:</label>
+                <input type="text" id="foodName" name="foodName" required>
+                
+                <label for="quantity">Quantity:</label>
+                <input type="text" id="quantity" name="quantity" required>
+                
+                <button class="donateButton" type="submit">Donate</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Re-Plate</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="donate-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Global styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header styling */
+
+header {
+    background-color: #2d4059;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+/* Main content styling */
+
+main {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Landing Intro styling */
+
+#landingIntro {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#landingIntro h2 {
+    font-size: 2.5rem;
+    color: #2d4059;
+    margin-bottom: 1.5rem;
+}
+
+#landingIntro .introText {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.centered {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* Option Button styling */
+
+.optionButton {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    background-color: #2d4059;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.optionButton:hover {
+    background-color: #40587a;
+}
